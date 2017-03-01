@@ -1,0 +1,1 @@
+You have used data>=max , in this case when the input is 10^4 , your program will fail at some point.
