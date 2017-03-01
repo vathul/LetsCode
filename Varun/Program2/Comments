@@ -1,0 +1,4 @@
+NEVER write programs in main function. 
+Write seperate functions
+You indents are not proper. Add new line spaces in the start of every block(if,for,while etc.) and at the end. There should never be two consecutive new lines.
+if(flag) is a better way of writing if(flag==true)
