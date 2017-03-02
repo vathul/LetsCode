@@ -7,19 +7,30 @@ import java.util.regex.*;
 public class Solution {
    
     private static long[] RangeAdder(int lowerLimit,int upperLimit,int value,long[] array){
+
         array[lowerLimit]=array[lowerLimit]+value;
+        
         if( upperLimit < (array.length-1)){
+        
             array[upperLimit+1]=array[upperLimit+1]-value;
+        
         }
+        
         return array;
     }
     
     private static void maxFinder(long[] array){
+        
         long max=Integer.MIN_VALUE;
+        
         for(int i=1;i<array.length;i++){
+            
             array[i]=array[i]+array[i-1];
-            if(array[i] > max)
+            
+            if(array[i] > max){
+        
                 max=array[i];
+            }
         }
         System.out.println(max);
     }
