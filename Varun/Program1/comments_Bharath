@@ -1,0 +1,1 @@
+Checking if root = null is done in 2 places which is not necessary
