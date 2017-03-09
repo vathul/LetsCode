@@ -35,9 +35,9 @@ public class Solution {
                 return binarySearch(mid+1,last,arr,search);
             }
         }
-        else return -1;
-        
-    }        
+        else return -1;  
+    }  
+    
     public static void main(String[] args) {
         
         int t;
